@@ -49,6 +49,7 @@ public class Result extends AppCompatActivity {
         buttonRestart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                finish();
                 Intent intent = new Intent(getApplicationContext(), Dashboard.class);
                 startActivity(intent);
             }

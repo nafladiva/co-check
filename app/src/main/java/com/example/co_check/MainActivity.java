@@ -61,11 +61,12 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 addQuestionValue();
                 nextQuestion();
-                NoQuestion.setText("Pertanyaan " + (questionNumber + 1));
+
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
                         try {
+                            NoQuestion.setText("Pertanyaan " + (questionNumber + 1));
                             questionTV.setText(getQuestion(pertanyaan));
                         } catch (JSONException e) {
                             e.printStackTrace();
@@ -93,11 +94,12 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 nextQuestion();
                 addNumberNo();
-                NoQuestion.setText("Pertanyaan " + (questionNumber + 1));
+
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
                         try {
+                            NoQuestion.setText("Pertanyaan " + (questionNumber + 1));
                             questionTV.setText(getQuestion(pertanyaan));
                         } catch (JSONException e) {
                             e.printStackTrace();
@@ -107,7 +109,6 @@ public class MainActivity extends AppCompatActivity {
 
                 try {
                     if(questionValue > 0 ) {
-                        Log.d("QuestionValue", "value: "+questionValue);
                         finish();
                         Intent intent = new Intent(getApplicationContext(), Result.class);
                         intent.putExtra("Nama", nama);
@@ -117,7 +118,6 @@ public class MainActivity extends AppCompatActivity {
                     }
 
                     if(chooseNo == 2 || getQuestion(pertanyaan).equals("")) {
-                        Log.d("QuestionDone", "HABIS Tidak");
                         finish();
                         Intent intent = new Intent(getApplicationContext(), Result.class);
                         intent.putExtra("Nama", nama);

@@ -14,7 +14,10 @@
         android:theme="@style/Theme.CoCheck"
         android:usesCleartextTraffic="true"
         tools:targetApi="m">
-        <activity android:name=".DataDiri"></activity>
+        <activity android:name=".OnBoarding3"></activity>
+        <activity android:name=".OnBoarding2" />
+        <activity android:name=".OnBoarding1" />
+        <activity android:name=".DataDiri" />
         <activity android:name=".Result" />
         <activity android:name=".SplashScreen">
             <intent-filter>
