@@ -1,0 +1,53 @@
+{
+    "data": [
+        {
+            "id" : 1,
+            "isi" : "Pernahkah kamu kontak dengan pasien positif COVID-19 atau pernah berkunjung ke negara/daerah endemis COVID-19 dalam 14 hari terakhir?",
+            "ya" : 2,
+            "tidak" : 3,
+            "final": false
+        },
+        {
+            "id" : 2,
+            "isi" : "Sedang atau pernah mengalami: demam (>38 C), pilek, batuk dan sesak napas?",
+            "ya" : 4,
+            "tidak" : 5,
+            "final": false
+        },
+        {
+            "id" : 3,
+            "isi" : "Sedang atau pernah mengalami: demam (>38 C), pilek, batuk dan sesak napas?",
+            "ya" : 6,
+            "tidak" : 7,
+            "final": false
+        },
+        {
+            "id" : 4,
+            "isi" : "Hubungi 119 EXT 9 atau periksa diri ke rumah sakit rujukan COVID-19 di daerah Anda",
+            "ya" : null,
+            "tidak" : null,
+            "final": true
+        },
+        {
+            "id" : 5,
+            "isi" : "Karantina diri Anda selama 14 hari terhitung setelah kontak/kunjungan",
+            "ya" : null,
+            "tidak" : null,
+            "final": true
+        },
+        {
+            "id" : 6,
+            "isi" : "Periksa diri ke dokter terdekat dan istirahat yang cukup",
+            "ya" : null,
+            "tidak" : null,
+            "final": true
+        },
+        {
+            "id" : 7,
+            "isi" : "Anda tidak perlu memeriksakan diri ke rumah sakit. Selalu jaga kesehatan Anda",
+            "ya" : null,
+            "tidak" : null,
+            "final": true
+        }
+    ]
+}

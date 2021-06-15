@@ -1,0 +1,50 @@
+{
+    "pertanyaan": [
+        {
+            "id" : 1,
+            "isi" : "Pernah kontak dengan pasien positif Covid -19 (berada dalam satu ruangan yang sama / kontak dalam jarak 1 meter) ?",
+            "value": null
+        },
+        {
+            "id" : 2,
+            "isi" : "Sedang atau pernah mengalami: demam (>38 C), pilek, batuk dan sesak napas?",
+            "value": 1
+        },
+        {
+            "id" : 3,
+            "isi" : "Pernah berkunjung ke Negara / daerah endemis Covid – 19 dalam 14 hari terakhir?",
+            "value": 0
+        },
+        {
+            "id" : 4,
+            "isi" : "Sedang atau pernah mengalami sesak?",
+            "value": 2
+        }
+    ],
+    "jawaban": [
+        {
+            "id": 1,
+            "isi": "Kamu tidak perlu memeriksakan diri ke rumah sakit. Selalu jaga kesehatan!",
+            "value": 0,
+            "image": "@drawable/result0"
+        },
+        {
+            "id": 2,
+            "isi": "Karantina diri kamu selama 14 hari terhitung setelah kontak / kunjungan",
+            "value": 1,
+            "image": "@drawable/result1"
+        },
+        {
+            "id": 3,
+            "isi": "Karantina diri kamu selama 14 hari terhitung setelah kontak / kunjungan",
+            "value": 2,
+            "image": "@drawable/result1"
+        },
+        {
+            "id": 4,
+            "isi": "Hubungi rumah sakit atau lakukan pemeriksaan diri ke rumah sakit rujukan Covid-19",
+            "value": 3,
+            "image": "@drawable/result3"
+        }
+    ]
+}
