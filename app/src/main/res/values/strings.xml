@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Co-Check</string>
+    <string name="TextDashboard1">Apakah kamu ingin memeriksa kondisi ?</string>
+    <string name="TextDashboard2">Terupdate tentang Covid</string>
+    <string name="TextDashboard3">Indonesia</string>
+    <string name="TextDatadiri">Data Diri</string>
+    <string name="pertanyaan">Pertanyaan 1</string>
+    <string name="textButton">Selanjutnya</string>
+    <string name="TextResult1">[Nama], Kamu harus ...</string>
 </resources>

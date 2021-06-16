@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins_medium"
-        android:text="[Nama], Kamu harus ..."
+        android:text="@string/TextResult1"
         android:textColor="#042540"
         android:textSize="22sp"
         android:textStyle="bold"
